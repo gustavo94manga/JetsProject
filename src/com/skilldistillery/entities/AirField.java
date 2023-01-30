@@ -40,8 +40,8 @@ public class AirField {
 					jet = new PilatusPC(model, speed, range, price);
 				}
 				jets.add(jet);
-				System.out.println("Name: " + name + " Model: " + model + " Speed: " + speed + " Range: " + range
-						+ " Price: " + price);
+//				System.out.println("Name: " + name + " Model: " + model + " Speed: " + speed + " Range: " + range
+//						+ " Price: " + price);
 			}
 		} catch (IOException e) {
 			System.err.println(e);
@@ -147,7 +147,7 @@ public class AirField {
 	
 	public void bombsAway() {
 		for (Jet jet : jets) {
-			if (jet instanceof StealthBomber) {			//<-------Unfinished method to call bombs away
+			if (jet instanceof StealthBomber) {			
 				((StealthBomber) jet).bombsAway();
 			}
 		}

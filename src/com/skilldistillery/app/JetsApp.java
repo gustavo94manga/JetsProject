@@ -17,7 +17,7 @@ public class JetsApp {
 	private void launch() {
 		airF.getJets();
 		String option;
-		boolean running = true; //
+		boolean running = true; 
 		do {
 			System.out.println("Please choose a number from the Menu:");
 			System.out.println("---------------MENU---------------");
