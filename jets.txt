@@ -1,3 +1,5 @@
-FigherJet,F15,1000,485,15000000
-CargoPlane,C130,400,900,10000000
-name, model speed, range, price
+FighterJet,F15,800,3285,15000000
+CargoPlane,C130,480,3040,10000000
+StealthBomber,B-2,628,3897,1000000000
+BombardierLearjet,24E,747,2015,8000000
+PilatusPC,PC-24,696,3476,19000000
